@@ -1,0 +1,36 @@
+<head>        
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>
+        Dashboard
+    </title>
+    <link rel="stylesheet" href="main.css">
+    <script src="../connect.js" defer></script>
+    <script src="main.js" defer></script>
+</head>
+<button id="conn_button" onclick='toggleConnection()' class="red">
+  <text class="text">Disconnected</text>
+</button> 
+<div id="arrow_container" onclick='redirect("")'>
+  <div class="arrow">
+    <div class="arrow-top"></div>
+    <div class="arrow-bottom"></div>
+  </div>
+</div>
+<div id="sse1"> 
+      <!--li onclick="loadTab('tab1/main.html')"><a href="#">MAIN</a></li>
+      <li onclick="loadTab('tab2/main.html')"><a href="#">FIELD</a></li-->
+
+      <nav>
+        <div class="underline"></div>
+        <div class="underline"></div>
+        <div class="underline"></div>
+        <div class="underline"></div>
+        <div class="underline"></div>
+        <a onClick="ul(0);loadTab('tab1/main.html')">Main</a><a onClick="ul(1);loadTab('tab2/main.html')">Field</a>
+      </nav>
+</div>
+
+<div id="content">
+      
+</div>

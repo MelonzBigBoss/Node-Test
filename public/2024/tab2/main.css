@@ -1,0 +1,17 @@
+#fieldcontainer {
+    position: relative;
+}
+
+#field {
+    color:red;
+    max-width:100vw;
+    height:auto;
+    display:block;
+    margin:auto;
+}
+
+#robot {
+    position:absolute;
+    top:0px;
+    left:0px;
+}

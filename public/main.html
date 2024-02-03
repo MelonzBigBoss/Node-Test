@@ -1,0 +1,23 @@
+<head>
+    <link rel="stylesheet" href="main.css">
+</head>
+<ul id="nav">
+	<li class="nav-link">
+		<h1 data-name="SandDrag">SandDrag</h1>
+	</li>
+	<li class="nav-link">
+		<h1 data-name="CtrlZ">CtrlZ</h1>
+	</li>
+	<li class="nav-link" onclick="redirect('2024/main.html')">   
+		<h1 data-name="2024">2024</h1>
+	</li>
+	<li class="nav-link">
+		<h1 data-name="2025">2025</h1>
+	</li>
+
+    <script>
+        function redirect(page) {
+            window.location.href = "http://localhost:3000/" + page;
+        }
+    </script>
+</ul>
